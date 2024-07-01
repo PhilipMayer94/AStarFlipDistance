@@ -51,7 +51,7 @@ with:
 	4. order = 2,5, 100 (for unconstrained) for sealevel and always 1 for random
 	5. path = path to the folder that contains "random_experiments_paper" and "sealevel_experiments_paper" and "random_hod_experiments_paper"
 
-If you do not specify the path it's assumed that the folder "data" is on the same level as build
+If you do not specify the path it's assumed that the folder "data" is on the same level as build.
 
 
 
@@ -64,8 +64,8 @@ If you want to run the code on your own instance use the third binary:
 with:
 
 	1. vertex_path = path to a list of vertices (every row is corresponds to a vertex) 
-	2. triangulation_1_path = path to a file of a triangulation (needs to be compatible  with the vertexlist)
-	3. triangulation_2_path = path to a file of a triangulation (needs to be compatible  with the vertexlist)
+	2. triangulation_1_path = path to a file of a triangulation (needs to be compatible  with the vertexlist every row is given by three integers corresponding to a triangle on the vertices)
+	3. triangulation_2_path = path to a file of a triangulation (needs to be compatible  with the vertexlist every row is given by three integers corresponding to a triangle on the vertices)
 	4. algorithm = eppstein heuristic combined decomposition ilp bfs heuristic
 	5. output_path = path to the folder that contains should contain the result json
  	6. output_file_name = name of the resultfile
