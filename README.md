@@ -6,7 +6,7 @@ C++:
 
 	- CGAL
 	- Gurobi 9.5 (If you want to use gurobi 10.0 you may have to change FindGurobi.cmake)
-  - Cgal 5.6
+ 	- Cgal 5.6
 
 Python:
 
