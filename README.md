@@ -70,5 +70,4 @@ with:
 	5. output_path = path to the folder that contains should contain the result json
  	6. output_file_name = name of the resultfile
 
-If you do not specify the path it's assumed that the folder "data" is on the same level as build
 
