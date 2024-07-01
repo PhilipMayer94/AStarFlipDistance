@@ -54,13 +54,16 @@ with:
 If you do not specify the path it's assumed that the folder "data" is on the same level as build
 
 
+
+
+
 If you want to run the code on your own instance use the third binary:
 ```bash
 ./A_star_for_flipdistance vertex_path triangulation_1_path triangulation_2_path algorithm output_path output_file_name
 ```
 with:
 
-	1. vertex_path path to a list of vertices (every row is corresponds to a vertex) 
+	1. vertex_path = path to a list of vertices (every row is corresponds to a vertex) 
 	2. triangulation_1_path = path to a file of a triangulation (needs to be compatible  with the vertexlist)
 	3. triangulation_2_path = path to a file of a triangulation (needs to be compatible  with the vertexlist)
 	4. algorithm = eppstein heuristic combined decomposition ilp bfs heuristic
